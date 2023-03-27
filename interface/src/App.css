@@ -1,25 +1,63 @@
 .App {
   text-align: center;
+  background-color: rgb(47, 84, 87);
+  z-index: -3rem;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 1s linear;
+  animation: App-logo-blink infinite 1s linear;
   height: 80px;
-  padding: 1px;
+  padding: 5px;
+  border-radius: 2rem;
+}
+
+label{
+  display: block;
+  font-size: 25px;
+  color: burlywood;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: rgb(56, 50, 50);
+  border-radius: 6rem;
+  height: 13rem;
+  width: 100%;
+  justify-self: center;
   padding: 20px;
-  color: white;
+  color: rgb(17, 0, 255);
+  font-size: 2rem;
+  position: fixed;
 }
 
-.App-intro {
-  font-size: large;
+button{
+  background-color: rgb(100, 237, 237);
+  border-radius: 30%;
+}
+.math{
+  color: aliceblue;
+  border-radius: 6rem;
+  background-color: hsla(0, 14%, 19%, 0.369);
 }
 
-@keyframes App-logo-spin {
+.user{
+  color: aliceblue;
+  background-color: hsla(0, 0%, 13%, 0.369);
+  border-radius: 6rem;
+}
+
+.set{
+  color: aliceblue;
+  background-color: hsla(0, 0%, 13%, 0.369);
+  border-radius: 6rem;
+}
+
+#set{
+  background-color: blueviolet;
+  border-radius: 45%;
+  height: 2rem;
+}
+
+@keyframes App-logo-blink {
   from { background-color: aqua; }
   to { background-color: crimson; }
 }
