@@ -1,0 +1,27 @@
+.walletCard{
+    float: right;
+    color: aliceblue;
+    background-color: aqua;
+    text-align: center;
+    height: 20rem;
+    width: 36rem;
+    border-radius: 20%;
+    border: solid 5px black;
+}
+
+.accountDisplay{
+    color: blue;
+    font-size: 1.5rem;
+}
+.balanceDisplay{
+    color: crimson;
+    font-size: 1.6rem;
+}
+button{
+    height: 3rem;
+    width: 6rem;
+}
+h4{
+    font-size: 2rem;
+    color: black;
+}

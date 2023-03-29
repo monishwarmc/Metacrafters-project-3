@@ -1,0 +1,18 @@
+.set{
+    color: aliceblue;
+    background-color: hsla(0, 0%, 13%, 0.369);
+    border-radius: 6rem;
+  }
+  
+  #set{
+    background-color: blueviolet;
+    border-radius: 45%;
+    height: 2rem;
+  }
+
+
+label{
+  display: block;
+  font-size: 25px;
+  color: burlywood;
+}
