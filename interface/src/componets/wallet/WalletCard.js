@@ -45,7 +45,7 @@ const WalletCard = () => {
 			window.ethereum.request({ method: 'eth_requestAccounts'})
 			.then(result => {
 				accountChangedHandler(result[0]);
-				setConnButtonText('Wallet Connected');
+				setConnButtonText('Connected');
 				getAccountBalance(result[0]);
 			})
 			.catch(error => {

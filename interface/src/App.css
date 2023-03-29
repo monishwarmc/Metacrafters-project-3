@@ -16,19 +16,18 @@
   background-color: rgb(56, 50, 50);
   border-radius: 6rem;
   height: 20rem;
-  width: 116rem;
+  width: 100%;
   justify-self: center;
-  padding: 20px;
   color: rgb(17, 0, 255);
   font-size: 2rem;
 }
 
 .logo{
-  float: left;
+  float: right;
   height: 20rem;
   width: 36rem;
   padding-top: 3rem;
-  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 button{

@@ -1,5 +1,7 @@
 .walletCard{
+
     float: right;
+    position: fixed;
     color: aliceblue;
     background-color: aqua;
     text-align: center;
