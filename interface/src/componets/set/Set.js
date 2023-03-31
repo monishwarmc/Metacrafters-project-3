@@ -17,7 +17,7 @@ const Set = () => {
 
   const setV = async (e) => {
     e.preventDefault();
-    await Contract.set(a, b, c, d);
+    await Contract.set({a}, {b}, {c}, {d});
   };
 
   const reset = async (e) => {
